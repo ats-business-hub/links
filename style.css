@@ -211,3 +211,12 @@ main { padding: 1rem 0 2.5rem; }
   border-color: var(--accent);
   color: #1a140c;
 }
+
+.list-label {
+  margin: 1rem 0 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  color: var(--teal);
+  font-weight: 700;
+}
+.genre-featured .list-label { color: #b56a14; }
