@@ -220,3 +220,35 @@ main { padding: 1rem 0 2.5rem; }
   font-weight: 700;
 }
 .genre-featured .list-label { color: #b56a14; }
+
+.sns-follow {
+  padding: 1.2rem 0 1.4rem;
+}
+.sns-follow h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+  color: var(--navy-deep);
+}
+.sns-follow p {
+  margin: 0 0 0.85rem;
+  line-height: 1.6;
+}
+.sns-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sns-links a {
+  display: inline-block;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid #e2b06a;
+  color: var(--navy-deep);
+  text-decoration: none;
+  font-weight: 600;
+}
+.sns-links a:hover { color: var(--teal); }
